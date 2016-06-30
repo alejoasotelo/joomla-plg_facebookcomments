@@ -3,3 +3,6 @@
 
 # Instalación:
 Se instala, se habilita, se pone el app id de facebook para poder administrar los comentarios y listo. Los comentarios se muestran luego del artículo, mas precisamente en el evento onContentAfterDisplay.
+
+# Demo:
+![Demo plg_facebookcomments](http://alejosotelo.com.ar/portal/images/plg_facebookcomments.jpg)
