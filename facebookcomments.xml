@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_FACEBOOKCOMMENTS</name>
+	<author>Alejo Sotelo</author>
+	<creationDate>Marzo 2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>alejoasotelo@outlook.com</authorEmail>
+	<authorUrl>www.alejosotelo.com.ar</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_FACEBOOKCOMMENTS_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="facebookcomments">facebookcomments.php</filename>
+		<folder>css</folder>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_facebookcomments.ini</language>
+		<language tag="en-GB">en-GB.plg_content_facebookcomments.sys.ini</language>
+		<language tag="es-ES">es-ES.plg_content_facebookcomments.ini</language>
+		<language tag="es-ES">es-ES.plg_content_facebookcomments.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">es_LA
+			<fieldset name="basic">
+				<field name="lang"
+					type="text"
+					default="es_LA"
+					description="es_LA, en_GB, etc."
+					label="Facebook Lang"/>
+				<field name="fbid"
+					type="text"
+					default=""
+					label="Facebook ID"/>
+				<field name="num_posts"
+					type="text"
+					default="5"
+					label="Num. Posts"/>
+				<field name="width"
+					type="text"
+					default="100%"
+					label="Ancho"/>
+				<field name="show_title" type="list"
+					default="1"
+					label="Mostrar el titulo">
+					<option value="1">Si</option>
+					<option value="0">No</option>
+				</field>
+				<field name="title"
+					type="text"
+					default="Comentarios"
+					label="Título"/>
+				<field name="title_class"
+					type="text"
+					default="page-header"
+					description="La/las clase/clases que va en el etiqueta para el titulo"
+					label="Titulo class"/>
+				<field name="htag" type="list"
+					default="h3"
+					description="Es la etiqueta html que se usara para mostrar el titulo"
+					label="Etiqueta para el titulo">
+					<option value="h1">H1</option>
+					<option value="h2">H2</option>
+					<option value="h3">H3</option>
+					<option value="h4">H4</option>
+					<option value="h5">H5</option>
+					<option value="p">p</option>
+					<option value="b">b</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
