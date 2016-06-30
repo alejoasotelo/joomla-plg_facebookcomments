@@ -6,3 +6,6 @@ Se instala, se habilita, se pone el app id de facebook para poder administrar lo
 
 # Demo:
 ![Demo plg_facebookcomments](http://alejosotelo.com.ar/portal/images/plg_facebookcomments.jpg)
+
+# Comentarios o posibles mejoras
+http://alejosotelo.com.ar/portal/categorias/joomla/item/286-comentarios-de-facebook-en-joomla.html
